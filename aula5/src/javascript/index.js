@@ -1,3 +1,4 @@
 function adicionarFilme(){
-    console.log("clicou");
+    var campoFilmeFavorito = document.getElementById("filme").value;
+    var elementoFilmeFavorito = "<img src=" + campoFilmeFavorito + ">"
 }
